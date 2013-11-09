@@ -118,6 +118,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b07:system/vendor/firmware/adsp.b07 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b09:system/vendor/firmware/adsp.b09 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
