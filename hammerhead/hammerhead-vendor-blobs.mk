@@ -92,6 +92,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b07:system/vendor/firmware/adsp.b07 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b09:system/vendor/firmware/adsp.b09 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd \
@@ -102,6 +116,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_3_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_3_DATA1.bin \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_3_DATA2.bin:system/vendor/firmware/bu24205_LGIT_VER_3_DATA2.bin \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_3_DATA3.bin:system/vendor/firmware/bu24205_LGIT_VER_3_DATA3.bin \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
     vendor/lge/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
@@ -118,25 +137,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b07:system/vendor/firmware/adsp.b07 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b09:system/vendor/firmware/adsp.b09 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
